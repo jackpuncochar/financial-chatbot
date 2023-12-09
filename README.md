@@ -1,2 +1,2 @@
 # financial-chatbot
-Generative content is gaining popularity as companies look to automate customer service and even answer questions that employees might have regarding internal documents and processes. I developed a simple chatbot using Python, OOP, and a little bit of HTML/CSS.
+I developed a simple financial chatbot using Python, OOP, and a little bit of HTML/CSS. I connected it to a user-friendly web interface using Flask app. The chatbot uses cosine similarity to compare a user's question to a bank of finance-related questions. Should the closest match be above a threshold, the chatbot outputs the answer to the closest-matched question, otherwise, it requests that the user ask a different question.
